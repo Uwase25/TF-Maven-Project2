@@ -1,0 +1,27 @@
+-------------------------------------------------------------------------------
+Test set: testCases.LoginPageTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 7.365 sec <<< FAILURE!
+setUp(testCases.LoginPageTest)  Time elapsed: 6.735 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=88.0.4324.150)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-RGPH0JP', ip: '192.168.1.126', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.150, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\uwase\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:2074}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b355e357a16b0864899fac8d3538aa3f
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:276)
+	at base.TestBase.initializeDriver(TestBase.java:27)
+	at testCases.LoginPageTest.setUp(LoginPageTest.java:20)
+
